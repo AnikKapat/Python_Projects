@@ -1,0 +1,9 @@
+### ✊✋✌️ Day 4 - Rock Paper Scissors
+
+A Python implementation of the classic game — Rock, Paper, Scissors! The player chooses an option, and the computer randomly selects one. The result is then printed along with ASCII art for a fun experience.
+
+**Features:**
+- Input validation for user choices
+- Random opponent using `random.randint()`
+- Visual feedback with ASCII art
+- Clear win/draw/lose logic
