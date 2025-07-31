@@ -1,0 +1,10 @@
+### 🔐 Day 5 - Py-Password Generator
+
+A flexible Python-based password generator that creates strong passwords using letters, symbols, and numbers. It offers two styles — a predictable one and a shuffled (more secure) version.
+
+**Features:**
+- User specifies number of letters, symbols, and numbers
+- Two password styles:
+  - ✅ Normie: characters in order (letters → symbols → numbers)
+  - 🔀 Gen-Z: characters randomly shuffled for higher security
+- Uses `random.choice()` and `random.shuffle()`
