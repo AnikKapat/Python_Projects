@@ -1,0 +1,85 @@
+🎯 Hangman Game
+A classic word-guessing game built in Python! Try to guess the secret word letter by letter before you run out of lives.
+🎮 How to Play
+
+The computer randomly selects a word from the word list
+You see blanks representing each letter in the word
+Guess letters one at a time
+Correct guesses reveal the letter(s) in the word
+Wrong guesses cost you a life
+Win by guessing the complete word before losing all lives!
+
+🚀 Features
+
+Random word selection from a predefined word list
+Lives system - 6 wrong guesses allowed
+Duplicate guess prevention - won't penalize for repeated guesses
+Progressive word reveal - correct letters stay visible
+Clear win/lose conditions with appropriate messages
+Input validation - handles uppercase/lowercase input
+
+📋 Game Rules
+
+✅ 6 lives to guess the word
+✅ Correct guesses reveal letters and don't cost lives
+✅ Wrong guesses reduce lives by 1
+✅ Duplicate guesses don't cost additional lives
+✅ Win condition: Guess all letters in the word
+✅ Lose condition: Lives reach 0
+
+💻 How to Run
+
+Make sure you have Python installed (Python 3.6+ recommended)
+Download the game:
+bashgit clone [your-repo-url]
+cd hangman-project
+
+Run the game:
+bashpython hangman.py
+
+Follow the prompts and start guessing!
+
+🎯 Example Gameplay
+Word has 5 letters
+_____
+
+Lives remaining: 6
+Guess a letter: e
+_e___
+
+Lives remaining: 6
+Guess a letter: a
+_ea_e
+
+Lives remaining: 6
+Guess a letter: l
+lea_e
+
+Lives remaining: 6
+Guess a letter: v
+leave
+
+Congratulations! You guessed 'leave' correctly!
+Thanks for playing!
+🔧 Technical Details
+Python Concepts Used
+
+Lists: Storing word list and guessed letters
+Random module: Selecting random words
+While loops: Game loop until win/lose
+String manipulation: Building display string
+Conditional statements: Game logic and validation
+Input handling: User interaction
+
+Code Structure
+hangman.py
+├── Word list definition
+├── Random word selection
+├── Game initialization
+├── Main game loop
+│   ├── User input handling
+│   ├── Duplicate guess checking
+│   ├── Display update logic
+│   ├── Lives management
+│   └── Win/lose condition checking
+└── Game end messages
